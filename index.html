@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="public/css/tailwind.css" rel="stylesheet">
+    <title>Front End</title>
+</head>
+<body class="bg-yellow-100">
+ <!-- Navbar -->
+ <nav class="bg-yellow-100 fixed top-0 inset-x-0">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex md:flex">
+          <!-- logo -->
+          <div class="mx-4">
+            <a href="#" class="flex justify-start items-center pr-10 py-5">
+              <span class="text-3xl font-mono font-bold">PIRÓ</span>
+            </a>
+          </div>
+          <!-- Primary Nav -->
+          <div class="hidden md:flex items-center ml-20 space-x-2">
+              <a class="py-2 px-3" href="#">Product</a>
+              <a class="py-2 px-3" href="#">By Use Case</a>
+              <a class="py-2 px-3" href="#">By Tim</a>
+              <a class="py-2 px-3" href="#">Pricing</a>
+          </div>
+        </div>
+          <!-- secondary Nav -->
+          <div class="hidden md:flex items-center mr-12 space-x-3">
+            <a href="#" class="py-2 px-3">Login</a> 
+            <a href="#" class="py-5 px-3">Sign Up</a>
+          </div>
+      </div>
+        <div class="mobile-menu md:hidden">
+          <a class="block py-2 px-3" href="#">Product</a>
+          <a class="block py-2 px-3" href="#">By Use Case</a>
+          <a class="block py-2 px-3" href="#">By Tim</a>
+          <a class="block py-2 px-3" href="#">Pricing</a>
+        </div>
+    </div>
+  </nav>
+  <!-- menu -->
+  <div class="container md:container mx-auto">
+    <section class="md:flex md:my-20">
+      <div class="text-left w-4/6 md:w-4/6 mt-28 ml-5">
+        <h1 class="text-7xl font-bold">Where Remote<br>
+        Team Get Work Done
+      </h1>
+        <p class="text-gray-600 mt-4 ml-3">
+          The online collaborative whiteboard platform to<br>
+          bring teams together, anytime, anywhere<br>
+        </p>
+        <div class="text-gray-50 mt-8 ml-2">
+          <button type="button" class="text-white-500 bg-blue-900 hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-900 focus:ring-opacity-50 rounded-3xl w-52 h-10">
+            Start A White Board
+          </button>
+        </div>
+      </div>
+        <img class="float-right max-w-7xl mt-20 w-5/12 space-x-5" src="public/img/bg-menu.svg">
+    </section>
+  </div>
+
+  <!-- Menu-2 -->
+  <div align="center" class="mt-20">
+    <h1 class="text-3xl pt-5 font-bold">What do you want to do?</h1>
+    <p>Choose the area you want to work in and we'll help get you started</p>
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3  gap-4 justify-center md:justify-center space-x-2 sm:space-x-16 space-y-12 md:space-y-12 text-center">
+      <div class="bg-gray-50 h-48 w-60 p-2 mt-12 ml-3 rounded-lg">
+        <p class="mt-5">Strategy and Planning</p>
+        <a href="#">
+          <img class="ml-14 mt-2" src="public/img/statistics.svg" style="height: 100px;">
+        </a>
+      </div>
+      <div class="bg-gray-50 h-48 w-60 p-2 rounded-lg mr-20">
+        <p class="mt-5">Ideation And Insight</p>
+        <a href="#">
+          <img class="ml-16 mt-2" src="public/img/insight.svg" style="height: 100px;">
+        </a>
+      </div>
+      <div class="bg-gray-50 h-48 w-60 p-2 rounded-lg ">
+        <p class="mt-5">Agile Workflows</p>
+        <a href="#">
+          <img class="ml-16 mt-2" src="public/img/workflow.svg" style="height: 100px;">
+        </a>
+      </div> 
+      <div class="bg-gray-50 h-48 w-60 p-2 rounded-lg ">
+        <p class="mt-5">Mapping And Diagraming</p>
+        <a href="#">
+          <img class="ml-16 mt-2" src="public/img/map.svg" style="height: 80px;">
+        </a>
+      </div>   
+      <div class="bg-gray-50 h-48 w-60 p-2 rounded-lg ">
+        <p class="mt-5">Meetings And Workshops</p>
+        <a href="#">
+          <img class="ml-16 mt-2" src="public/img/round-table.svg" style="height: 100px;">
+        </a>
+      </div>   
+      <div class="bg-gray-50 h-48 w-60 p-2 rounded-lg ">
+        <p class="mt-5">Research And Design</p>
+        <a href="#">
+          <img class="ml-16 mt-2" src="public/img/research.svg" style="height: 100px;">
+        </a>
+      </div>
+    </div>
+    <p class="text-center mt-8">Didn't find what you wanted to get started with? <a class="font-bold" href="#"> Strat from scratch</a></p>
+  </div>
+
+  <!-- Definition -->
+  <div class="mt-20 space-x-3 text-justify">
+    <img class="float-right w-4/12 mr-5" src="public/img/exprience.svg">
+    <div class="space-y-5">
+      <h1 class="text-2xl text-center font-bold">Become a professional Designer</h1>
+      <p>A graphic designer is a job of creating illustrations, typography, photography, or motion graphics for both publishers and print and electronic media.
+        A graphic designer is responsible for the appearance of the promotional media for a product. His job is to convey information about a product in an attractive
+        manner by accommodating the wishes of the client.
+        Graphic designers can not only have a career in the media, but can also be in various industries, especially the service industry (telecommunications, advertising,
+        photography, education, construction, information technology) and the manufacturing industry (textiles, garments, fashion, automotive, electronics).
+        Graphic designers also play a role in solving problems that arise in certain areas through public service advertisements. Becoming a graphic designer does not have 
+        to be good at drawing, but you should have basic drawing skills so that it is easy to pour creative ideas into visual form. In addition, the ability to use graphic 
+        software is also needed to support illustration creation.
+      </p>
+    </div>
+  </div>
+  <div class="mt-44 space-x-2">
+    <img class="float-left w-4/12 mr-5" src="public/img/sa.svg">
+    <div class="space-y-5">
+      <h1 class="text-2xl text-center font-bold">Become a professional Machine Learning Developer</h1>
+      <p>Machine learning is an artificial intelligence application that enables a system to learn from data, so that it no longer relies on explicit programming.
+        When a machine learning program has been created, it takes "training" so that a machine can learn from the data provided.
+        This programming uses an algorithm created by a machine learning developer.
+        A Machine Learning Developer is an expert in using data for training models. The models are then used to automate processes such as image classification,
+        speech recognition, and market forecasting. There is often a merger with the role of a data scientist or artificial intelligence (AI) engineer.
+        Machine learning is a subfield of AI that focuses on analyzing data to find the relationship between the desired input and output. A machine learning developer 
+        must be able to come up with tailor-made solutions to each problem and achieve optimal results by carefully processing the data and selecting the best algorithm 
+        for a given context.
+      </p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer bg-yellow-200 relative pt-1 mt-20">
+    <div class="container mx-auto px-6">
+        <div class="sm:flex sm:mt-8">
+            <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+                <div class="flex flex-col">
+                    <span class="font-bold text-gray-900 uppercase mb-2">PIRÓ</span>
+                    <span class="my-2"><a href="#">Bantuan</a></span>
+                    <span class="my-2"><a href="#">Tentang Kami</a></span>
+                    <span class="my-2"><a href="#">Kontak Kami</a></span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold text-gray-900 uppercase mt-4 md:mt-0 mb-2">Hubungi Kami Di</span>
+                    <div class="md:flex space-x-2 mt-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                      </svg>
+                      <p>081291076937</p>
+                   </div>
+                   <div class="md:flex space-x-2 mt-2 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+                    </svg>
+                    <p>ikhsangent@gmail.com</p>
+                 </div>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Ikuti Kami Di</span>
+                    <span class="my-2"><a href="https://www.facebook.com/ahmad.ikhsanmaulana.90"><img class="w-5" src="public/img/facebook.svg"></a></span>
+                    <span class="my-2"><a href="https://twitter.com/Ahmadik03292698?s=09"><img class="w-5" src="public/img/twitter.svg"></a></span>
+                    <span class="my-2"><a href="https://www.instagram.com/ahmdikhsn_"><img class="w-5" src="public/img/instagram.svg"></a></span>
+                    <span class="my-2"><a href="https://www.youtube.com/c/AhmadIkhsanMaulana"><img class="w-5" src="public/img/youtube.svg"></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto px-2">
+        <div class="mt-20 border-t-2 border-blue-900 flex flex-col items-center">
+            <div class="sm:w-2/3 text-center py-6">
+                <p class="text-sm text-gray-900 font-bold mb-2">
+                  © 2021 <b>PIRÓ</b> . Ahmad Ikhsan Maulana. All Rights Reserved 
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
